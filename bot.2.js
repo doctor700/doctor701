@@ -9,7 +9,7 @@ client.on('ready', () => {
 
 
 client.on("message", message => {
- if (message.content === "f!help") {
+ if (message.content === "Dr!help") {
   const embed = new Discord.RichEmbed() 
       .setColor("#ffff00")
       .setThumbnail(message.author.avatarURL)
@@ -58,58 +58,57 @@ Fire bot
 
         ***__General orders__***
 **
-『f!id / معلومات عن حسابك』
-『f!draw / يكرر كلامك في صوره』
-『f!embed / يكرر كلامك بمبيد』
-『f!roles / يعرض لك الرتب و عددها』
-『f!rooms / يعرض لك الرومات وعددها』
-『f!server / معلومات عن السيرفر』
-『f!animal / يعطيك صور حيوانات』
-『f!image / يعرض صوره السيرفر』
-『f!avatar / يعرض صورتك او صوره شخص』
-『f!time / يعرض لك الوقت』
-『f!date / يعرض لك التاريخ』
-『f!dt / يعرض الوقت في الامارات و مكه المكرمه و مصر و التاريخ』
+『Dr!id / معلومات عن حسابك』
+『Dr!draw / يكرر كلامك في صوره』
+『Dr!embed / يكرر كلامك بمبيد』
+『Dr!roles / يعرض لك الرتب و عددها』
+『Dr!server / معلومات عن السيرفر』
+『Dr!animal / يعطيك صور حيوانات』
+『Dr!image / يعرض صوره السيرفر』
+『Dr!avatar / يعرض صورتك او صوره شخص』
+『Dr!time / يعرض لك الوقت』
+『Dr!date / يعرض لك التاريخ』
+『Dr!dt / يعرض الوقت في الامارات و مكه المكرمه و مصر و التاريخ』
 **
 
         ***__Bot orders__***
 **
-『f!ping / يعرض لك سرعه اتصال البوت』
-『f!uptime / يعرض لك صار للبوت كم شغال』
-『f!support / سيرفر الدعم القني و المساعده』
-『f!invite / اضافه البوت』
-『f!members / حاله الاعضاء』
-『f!bot / معلومات عن البوت』
+『Dr!ping / يعرض لك سرعه اتصال البوت』
+『Dr!uptime / يعرض لك صار للبوت كم شغال』
+『Dr!support / سيرفر الدعم القني و المساعده』
+『Dr!invite / اضافه البوت』
+『Dr!members / حاله الاعضاء』
+『Dr!bot / معلومات عن البوت』
 **
 
         ***__Administrative Orders__***
 **
-『f!kick / كيك』
-『f!ban / بان』
-『f!mute /ميوت』
-『f!unmute /فك الميوت』
-『f!mutechannel /قفل الشات』
-『f!unmutechannel /فتح الشات』
-『f!add.r / اضافه رتبه』
-『f!delet / مسح روم』
-『f!color 50 /انشاء 50 لون』
-『f!color 100/انشاء 100 لون』
-『f!color 140/انشاء 140 لوم』
-『f!ct /انشاء روم كتابي』4
-『f!cv /انشاء روم صوتي』
-『f!bc /برودكاست』
+『Dr!kick / كيك』
+『Dr!ban / بان』
+『Dr!mute /ميوت』
+『Dr!unmute /فك الميوت』
+『Dr!mutechannel /قفل الشات』
+『Dr!unmutechannel /فتح الشات』
+『Dr!add.r / اضافه رتبه』
+『Dr!delet / مسح روم』
+『Dr!color 50 /انشاء 50 لون』
+『Dr!color 100/انشاء 100 لون』
+『Dr!color 140/انشاء 140 لوم』
+『Dr!ct /انشاء روم كتابي』4
+『Dr!cv /انشاء روم صوتي』
+『Dr!bc /برودكاست』
 **
 
 
         ***__Games orders__***
  **       
-『f!لعبه صراحه / صراحه』
-『f!لعبه مريم / مريم』
-『f!لعبه خواطر / خواطر』
-『f!يعطيك شعر عن الحب / حب』
-『f!يخيرك بين شي وشي / لو خيروك』
-『f!يعطيك عقاب و لازم تنفذه / عقاب』
-『f!لعبه اسئله / كت تويت』
+『Dr!لعبه صراحه / صراحه』
+『Dr!لعبه مريم / مريم』
+『Dr!لعبه خواطر / خواطر』
+『Dr!يعطيك شعر عن الحب / حب』
+『Dr!يخيرك بين شي وشي / لو خيروك』
+『Dr!يعطيك عقاب و لازم تنفذه / عقاب』
+『Dr!لعبه اسئله / كت تويت』
 **
    
         
@@ -272,7 +271,7 @@ const Za7f = [
 });
 
 
-  var prefix = "f!";
+  var prefix = "!Dr";
 var rebel = ["https://f.top4top.net/p_682it2tg6.png","https://e.top4top.net/p_682a1cus5.png","https://d.top4top.net/p_682pycol4.png","https://c.top4top.net/p_682vqehy3.png","https://b.top4top.net/p_682mlf9d2.png","https://a.top4top.net/p_6827dule1.png","https://b.top4top.net/p_682g1meb10.png","https://a.top4top.net/p_682jgp4v9.png","https://f.top4top.net/p_682d4joq8.png","https://e.top4top.net/p_6828o0e47.png","https://d.top4top.net/p_6824x7sy6.png","https://c.top4top.net/p_682gzo2l5.png","https://b.top4top.net/p_68295qg04.png","https://a.top4top.net/p_682zrz6h3.png","https://f.top4top.net/p_6828vkzc2.png","https://e.top4top.net/p_682i8tb11.png"]
     client.on('message', message => {
         var args = message.content.split(" ").slice(1);
@@ -344,7 +343,7 @@ const secreT = [
 
 
  client.on('message', message => {
-   if (message.content.startsWith("f!خواطر")) {
+   if (message.content.startsWith("!Drخواطر")) {
                 if(!message.channel.guild) return message.reply('** This command only for servers**');
   var embed = new Discord.RichEmbed()
   .setColor('RANDOM')
@@ -12516,7 +12515,7 @@ message.member.addRole(message.guild.roles.find("name", "100"));
 	}
 
 
-  if (message.content === 'f!colors') {
+  if (message.content === 'Dr!colors') {
       if (!message.channel.guild) return;
     message.channel.sendFile('URL-Of-colors-Img');
   }
@@ -12524,4 +12523,5 @@ message.member.addRole(message.guild.roles.find("name", "100"));
 });
 
 
-client.login('تــوكــن بــوتــك اهــنا');
+client.login('NTk0NTA4MTI1MTgxMzEzMDQ2.XRdc4w.2zY4Yw5EhM-lY_AU1jYbDCYzwtA
+');
